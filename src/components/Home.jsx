@@ -1,6 +1,7 @@
 import React from "react";
 import Products from "./Products";
 import { Helmet } from "react-helmet";
+import bgImage from "../assets/bg.jpg";
 
 const Home = () => {
   return (
@@ -8,7 +9,7 @@ const Home = () => {
     <Helmet><title>Home</title></Helmet>
     <div className="hero">
       <div className="card bg-dark text-white border-0">
-        <img src="/assets/bg.JPG" className="card-img" alt="Background" height='550px' />
+        <img src={bgImage} className="card-img" alt="Background" height='550px' />
         <div className="card-img-overlay d-flex flex-column justify-content-centere">
             <div className="container">
 
